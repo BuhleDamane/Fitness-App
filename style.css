@@ -119,6 +119,9 @@ h1{
 }
 .underline{
     border-bottom: 4px solid rgb(44, 230, 44);
+    display: inline-block;
+    width: 100px;
+    margin-left: 13px;
 }
 /*index  rates end */
 
