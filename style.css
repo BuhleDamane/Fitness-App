@@ -117,6 +117,9 @@ h1{
 .impact{
     margin-top: 7px;
 }
+.underline{
+    border-bottom: 4px solid rgb(44, 230, 44);
+}
 /*index  rates end */
 
 /*index  impact-run starts */
