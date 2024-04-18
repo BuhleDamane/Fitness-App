@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(235, 28, 28);
 }
 .container-box{
     background-color: white;
@@ -10,6 +10,242 @@ body{
     width: 100%;
     height: 100%;
 }
+.upper-phone{
+    height: 30px;
+    color: white;
+    background-color: rgb(63, 58, 58);
+}
+.time{
+    margin-left: 20px;
+}
+.lock{
+margin-top: -24px;
+margin-left: 50px;
+}
+.alarm{
+margin-top: -24px;
+margin-left: 200px;
+}
+.wifi{
+margin-top: -24px;
+margin-left: 230px;
+}
+.network-4g{
+margin-top: -23px;
+margin-left: 260px;
+font-size: 13px;
+}
+.network{
+margin-top: -36px;
+margin-left: 280px;
+}
+.battery{
+margin-top: -23px;
+color: red;
+margin-left: 310px;
+}
+.battery-percentage{
+margin-top: -23px;
+margin-left: 335px;
+font-size: 13px;
+}
+/*index  heading starts */
+#heading{
+    box-shadow: 0px 5px 5px -5px rgba(6, 6, 74, 0.8), 0px -5px 5px -5px rgba(6, 6, 74, 0.8);
+    margin-top: -35px;
+    background-color: rgb(15, 15, 90);
+    height: 55px;
+    margin-bottom: 30px;
+    color: white;
+   
+}
+.arrow{
+    margin-left: 20px;
+    width: 30px;
+    margin-bottom: -20px;
+}
+.fa-arrow-left{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.heading{
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 100px;
+}
+h1{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.sharing{
+    margin-left: 300px;
+    margin-top: -34px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.pen{
+    margin-left: 335px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.dustbin{
+    margin-left: 335px;
+    margin-top: -30;
+    margin-bottom: 50px;
+}
+/*index  heading ends */
+
+/*index  rates starts */
+.rates{
+    background-color: rgb(6, 6, 74);
+    margin-top: -30px;
+    margin-left: px;
+    margin-bottom: 20px;
+    height: 38px;
+    text-align: center;
+    color: white;
+
+}
+.heart-rate{
+    margin-top: 7px;
+}
+.energy{
+    margin-top: 7px;
+}
+.impact{
+    margin-top: 7px;
+}
+.underline{
+    border-bottom: 4px solid rgb(44, 230, 44);
+    display: inline-block;
+    width: 94px;
+    margin-left: 13px;
+}
+/*index  rates end */
+
+/*index  impact-run starts */
+.circle{
+    margin-left: 15px;
+    font-size: 30px;
+    color: rgb(44, 230, 44);
+    margin-top: -10px;
+}
+h2{
+    margin-left: 60px;
+    margin-top: -36px;
+    font-size: 20px;
+    font-weight: normal;
+}
+/*index  impact-run end */
+
+/*index  heading starts */
+.running{
+    display: inline;
+}
+.fa-shoe-prints{
+margin-top: 10px;
+font-size: 35px;
+margin-left: 10px;
+border: 1px solid white;
+border-radius: 100%;
+width: 70px;
+height: 70px;
+padding: 17px 15px;
+background-color: rgb(44, 230, 44);
+color: white;
+}
+.steps-taken{
+    margin-top: -57px;
+    margin-left: 100px;
+    line-height: normal;
+    white-space: nowrap;
+}
+.distance{
+    margin-top: -15px;
+    margin-left: 100px;
+}
+.fa-fire{
+    margin-top: 70px;
+    font-size: 35px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    padding: 17px 17px;
+    background-color: rgb(44, 230, 44);
+    color: white;
+
+}
+.calories-burned{
+    margin-top: -60px;
+    white-space: nowrap;
+    margin-left: 100px;
+}
+.actual-calories{
+    white-space: nowrap;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.fa-bolt{
+    margin-top: 80px;
+    font-size: 35px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    padding: 17px 20px;
+    background-color: rgb(44, 230, 44);
+    color: white;
+}
+.time-run{
+    margin-top: -60px;
+    white-space: nowrap;
+    margin-left: 100px;
+}
+.actual-time{
+white-space: nowrap;
+margin-top: -20px;
+margin-left: 100px;
+}
+/*index  rates end */
+
+
+/*index  footer starts */
+.footer{
+    margin-top: 40px;
+   text-align: center;
+   background-color: rgb(63, 58, 58);
+   color: white;
+   height: 40px;
+}
+.fa-caret-left{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.fa-circle{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fa-stop{
+    font-size: 23px;
+    margin-top: 6px;
+}
+/*index  footer end */
+@media(max-width: 576px){
+    .container-box{
+        background-color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
 .upper-phone{
     height: 30px;
     color: white;
@@ -216,7 +452,7 @@ margin-left: 100px;
 
 /*index  footer starts */
 .footer{
-    margin-top: 40px;
+    margin-top: 19px;
    text-align: center;
    background-color: rgb(63, 58, 58);
    color: white;
@@ -235,3 +471,4 @@ margin-left: 100px;
     margin-top: 6px;
 }
 /*index  footer end */
+}
