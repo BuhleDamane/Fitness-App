@@ -151,10 +151,14 @@ background-color: rgb(44, 230, 44);
 color: white;
 }
 .steps-taken{
-    margin-top: -50px;
+    margin-top: -57px;
+    margin-left: 100px;
+    line-height: normal;
+    white-space: nowrap;
 }
-distance{
-    margin-top: -60px;
+.distance{
+    margin-top: -15px;
+    margin-left: 100px;
 }
 .fa-fire{
     margin-top: 70px;
@@ -170,10 +174,17 @@ distance{
 
 }
 .calories-burned{
-    margin-top: -50px;
+    margin-top: -60px;
+    white-space: nowrap;
+    margin-left: 100px;
+}
+.actual-calories{
+    white-space: nowrap;
+    margin-left: 100px;
+    margin-top: -20px;
 }
 .fa-bolt{
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 35px;
     margin-left: 10px;
     border: 1px solid white;
@@ -185,14 +196,21 @@ distance{
     color: white;
 }
 .time-run{
-    margin-top: -90px;
+    margin-top: -60px;
+    white-space: nowrap;
+    margin-left: 100px;
+}
+.actual-time{
+white-space: nowrap;
+margin-top: -20px;
+margin-left: 100px;
 }
 /*index  rates end */
 
 
 /*index  footer starts */
 .footer{
-    margin-top: 50px;
+    margin-top: 30px;
    text-align: center;
    background-color: rgb(63, 58, 58);
    color: white;
